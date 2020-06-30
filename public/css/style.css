@@ -1,0 +1,30 @@
+ul {
+  display: block;
+  text-align: center;
+  background-color: white;
+  position:relative;
+}
+
+li {
+  margin: 0 auto;
+  display: inline-block;
+  padding:0;
+  color: black;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  z-index: 2;
+  text-decoration: none;
+  color: black;
+}
+.type {
+    z-index: 8;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    font-weight: 700;
+    padding: 7px 12px;
+    font-size: 13px;
+    color: white;
+}
